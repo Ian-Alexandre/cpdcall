@@ -28,9 +28,9 @@
 		$nivel = $_POST['nivel'];
 		$pesquisar = $_POST['pesquisar']; 
 		
-		$host = "localhost";
-		$user = "root";
-		$pass = "";
+		$host = "104.234.63.94";
+		$user = "francegg";
+		$pass = "2tHOMcidadefranceggdevelopment@sTArKs1";
 		$banco = "arvdesk";
 		//Criar a conexao
 		$conexao = mysqli_connect($host, $user, $pass)or die (mysqli_error());
